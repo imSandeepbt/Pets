@@ -1,0 +1,102 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(0, 0, 0);
+    margin:0;
+    color: white;
+    line-height: 1.6;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #ccc;
+}
+
+#header{
+    margin: 0;
+    padding: 0;
+    background: url('cat.jpg') no-repeat center/cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow-y: hidden;
+
+}
+#header .container{
+    margin-top: 25vh;
+
+}
+
+#header h1{
+    font-size: 4rem;
+    margin-bottom: 0;
+    
+}
+
+nav{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    position: fixed;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    display: inline;
+    float: left;
+}
+
+nav a{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0; /*top right bottom left*/ /*top/bottom right/left*/
+    color: #ccc;
+}
+nav li:hover{
+    background-color: rgb(36, 19, 19);
+}
+
+.container{
+    max-width: 1180px;
+    text-align:justify;
+    margin: 0 auto;
+    padding: 0 3rem;
+    color: rgb(0, 0, 0);
+}
+
+footer .footer-cols{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    padding: 2rem;
+    text-align: left;
+    font-size: 14px;
+    color: white;
+}
+
+footer .footer-cols ul{ 
+    list-style: none;
+    border: 1px solid yellowgreen;
+}
+
+footer .footer-cols ul li:first-child{
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: rgb(176, 155, 155) solid 0.1px;
+    margin-bottom: 1rem;
+}
+
+footer .footer-bottom{
+    text-align: center;
+    color: white;
+}
+footer .footer-bottom ul{
+    list-style: none;
+}
+
